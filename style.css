@@ -1,0 +1,64 @@
+/*configuração inicial*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing : 0;
+    }
+    
+    body{
+    background-color : rgb(0, 0, 0);/*mudar*/
+    color: black;/*mudar*/
+    display:flex;
+    justify-content : center;
+    align-items : center;
+    }
+    #app{
+    background : rgb(108, 183, 233);/*mudar*/
+    display:flex;
+    flex-direction:column;
+    width:380px;/*mudar*/
+    height:500px;/*mudar*/
+    padding:15px;/*mudar*/
+    border-radius: 15px;
+    box-shadow:0 0 10px rgb(255, 255, 255);/*mudar*/
+    }
+    main{
+    padding : 30px;
+    height : 100%;
+    display: flex;
+    flex-direction : column;
+    align-items : center;
+    text-align : center;
+    }
+    nav{
+    border-top : 2px solid black;
+    display : flex;
+    align-items : center;
+    padding : 10px;
+    justify-content:space-between;
+    }
+    body{
+    min-height:100vh;
+    
+    }
+    #msg{
+    width:100%;
+    overflow-wrap : break-word;
+    word-wrap : break-word;
+    font-size : 18px;/*m*/
+    }
+    
+    button{
+    width:80px;/*m*/
+    height:80px;
+    background:radial-gradient(circle,rgb(52, 52, 155),rgb(46, 46, 172));/*m*/
+    border-radius:50%;
+    border:none;
+    cursor:pointer;
+    margin-top:auto;
+    color:azure;/*m*/
+    transition:0.3s;
+    }
+    button:hover{
+    scale:1.1;
+    }
